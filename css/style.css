@@ -3158,9 +3158,19 @@ ul.bxslider img {
     max-width: 700px;
     margin: 0px auto;
 }
+.schedule-date h4{
+    opacity: 0.6;
+    text-transform: none;
+}
 .schedule-title h3{
     color:#fff;
     padding-top:1em;
+}
+.schedule-title h3 a{
+    color:#fff;
+}
+.schedule-title h3 a:hover{
+    color:goldenrod;
 }
 .schedule-row .outer-line{
     opacity: 0.2;

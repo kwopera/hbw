@@ -759,6 +759,7 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: 24px;
+    text-transform: none;
 }
 h4 {
     font-size: 18px;
@@ -1715,6 +1716,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+@media screen and (min-width: 1024px) {
+    .image-wrap{
+        max-height:170px !important;
+    }
+}
 .filtr-item {
     padding: 10px;
 }
@@ -2496,6 +2502,14 @@ ul.pagination li a:hover {
     line-height: 23px;
     font-size: 13px;
 }
+.info-map-boxes .social-icons ul li a {
+    width: 42px;
+    height: 42px;
+    line-height: 40px;
+}
+.info-map-boxes .social-icons ul li a:before {
+    font-size: 21px;
+}
 /* Contact Form */
 
 .contactform {
@@ -2596,7 +2610,7 @@ ul.bxslider img {
     margin: 0;
     padding: 0;
     line-height: 0;
-    font-size: 0;
+    font-size: 0px;
 }
 .social-icons ul li {
     display: inline-block;
@@ -3133,3 +3147,8 @@ ul.bxslider img {
         padding-right: 0;
     }
 }
+
+/* fix Safari */
+.row:before, .row:after{
+    display: none;
+  }

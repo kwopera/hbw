@@ -1716,7 +1716,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
-@media screen and (min-width: 470px) {
+@media screen /* and (min-width: 470px) */ {
     .image-wrap{
         max-height:170px !important;
     }

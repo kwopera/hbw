@@ -3152,3 +3152,16 @@ ul.bxslider img {
 .row:before, .row:after{
     display: none;
   }
+/* Schedule css */
+.schedule-row {
+    width:100%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+.schedule-title h3{
+    color:#fff;
+    padding-top:1em;
+}
+.schedule-row .outer-line{
+    opacity: 0.2;
+}

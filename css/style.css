@@ -1433,6 +1433,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 
 .services {
     background-color: #efefef;
+    background-image: url("../img/sections/services-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 110%;
 }
 .services .services-box {
     margin: 25px 0;

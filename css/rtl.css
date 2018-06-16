@@ -219,6 +219,9 @@ Description: Salimo - Creative One Page Template [RTL VERSION]
 	}
 	.rtl-version .slider-button{
 		margin-top:40px;
+  }
+  .rtl-version .redirect-button{
+		margin-top:40px;
 	}
 	.rtl-version .projectmanager .img-responsive {
 		margin-top:70px;

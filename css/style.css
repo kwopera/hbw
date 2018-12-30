@@ -2464,7 +2464,7 @@ ul.pagination li a:hover {
 .info-map-boxes {
     zoom: 1;
     position: relative;
-    margin-top: -180px;
+    margin-top: -50px;
     margin-bottom: 44px;
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;

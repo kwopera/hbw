@@ -1,945 +1,523 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Hongni Wu, Mezzo-soprano</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hongni Wu - Mezzo soprano</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Retrina Group" />
+
+    <!--  FavIcon  -->
+    <link rel="shortcut icon" href="assets/img/favicon.gif">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <!-- Template CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/skins/goldenrod.css" />
-
-    <!-- Revolution Slider CSS Files -->
-    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/layers.css" />
-    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/navigation.css" />
-
-    <!-- Template JS Files -->
-    <script type="text/javascript" src="js/modernizr.js"></script>
-
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- LineIcons Css -->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Magnific Css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Colors Css -->
+    <link rel="stylesheet" href="assets/css/color/pink-color.css" id="option-color">
+    <!--  Custom Style CSS  -->
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body class="dark">
-    <!-- Preloader Starts -->
-    <div class="preloader" id="preloader">
-        <div class="loader" id="loader"></div>
-    </div>
-    <!-- Preloader Ends -->
-    <!-- Page Wrapper Starts -->
-    <div class="wrapper">
-        <!-- Header Starts -->
-        <header id="header" class="header">
-            <div class="header-inner">
-                <!-- Navbar Starts -->
-                <nav class="navbar navbar-expand-lg p-0" id="singlepage-nav">
-                    <!-- Language switcher Starts -->
-                    <div class="logo">
-                        <a class="" href="">
+<body data-spy="scroll" data-target="#scrollspy" data-offset="1" class="flat-demo">
 
-                        </a>
-                    </div>
-                    <!-- Language switcher Ends -->
-                    <!-- Hamburger Icon Starts -->
-                    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span id="icon-toggler">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </button>
-                    <!-- Hamburger Icon Ends -->
-                    <!-- Navigation Menu Starts -->
-                    <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
-                        <ul class="nav-menu-inner ml-auto">
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#mainslider">
-                                    <i class="fa fa-home"></i> home</a>
-                            </li>
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#about">
-                                    <i class="fa fa-user"></i> biography</a>
-                            </li>
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#services">
-                                    <i class="fa fa-calendar"></i> schedule</a>
-                            </li>
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#reviews">
-                                    <i class="fa fa-newspaper-o"></i> reviews</a>
-                            </li>
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#portfolio">
-                                    <i class="fa fa-music"></i> media</a>
-                            </li>
-                            <li>
-                                <a data-toggle="collapse" data-target=".navbar-collapse.show" class="link-menu" href="#contact">
-                                    <i class="fa fa-envelope"></i> contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Navigation Menu Ends -->
-                </nav>
-                <!-- Navbar Ends -->
+    <!--  Pre Loader  -->
+    <div id="overlayer"></div>
+    <span class="loader"></span>
+
+
+
+
+    <main id="main">
+
+        <!--   Header Start -->
+        <header>
+            <div class="header-navbar h-100">
+                <ul class="list-group menu text-center" id="menu">
+                    <li class="list-group-item"><a class="active" href="#hero"><i
+                                class="fa fa-home"></i><span>home</span></a></li>
+                    <li class="list-group-item"><a href="#about"><i class="fa fa-user"></i><span>biography</span></a>
+                    </li>
+                    <li class="list-group-item"><a href="#schedule"><i
+                                class="fa fa-calendar"></i><span>schedule</span></a></li>
+                    <li class="list-group-item"><a href="#gallery"><i class="fa fa-image"></i><span>gallery</span></a>
+                    </li>
+                    <!-- <li class="list-group-item"><a href="#videos"><i class="fa fa-film"></i><span>videos</span></a>
+                    </li> -->
+                    <li class="list-group-item"><a href="#contact"><i
+                                class="fa fa-envelope-open"></i><span>contact</span></a></li>
+                </ul>
+                <div class="menu-toggler">
+                    <span>
+                        <i class="text-white lni-menu"></i>
+                    </span>
+                </div>
             </div>
         </header>
-        <!-- Header Ends -->
-        <!-- Main Slider Section Starts -->
-        <section class="mainslider" id="mainslider">
-            <article class="content">
-                <div class="rev_slider_wrapper fullscreen-container" data-alias="scroll-effect76" style="background-color:#111111;padding:0px;">
-                    <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
-                    <div id="rev_slider" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
-                        <ul>
-                            <!-- SLIDE  -->
-                            <li data-index="rs-309" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
-                                data-masterspeed="1000" data-thumb="img/revolution-slider/scroll-effects/thumb1.jpg" data-rotate="0"
-                                data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"
-                                data-title="Hongni Wu" data-description="">
-                                <!-- MAIN IMAGE -->
-                                <img src="img/revolution-slider/scroll-effects/scroll-effects1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-                                    data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
+        <!--   Header End   -->
 
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-309-layer-1" data-x="['center','center','center','center']"
-                                    data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
-                                    data-width="full" data-height="['400','400','400','550']" data-whitespace="nowrap" data-transform_idle="o:1;"
-                                    data-style_hover="cursor:default;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                                    data-transform_out="opacity:0;s:1000;s:1000;" data-start="0" data-basealign="slide" data-responsive_offset="off"
-                                    data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 0);background:linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%);">
+        <!--  Hero Start  -->
+        <section id="hero" class="hero-01 active">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row justify-content-center hero-item text-right">
+                            <div class="col-lg-8">
+                                <div class="hero-content">
+                                    <h1 class="mb-3">Hongni Wu</h1>
+                                    <h4 class="mb-0"><span class="base-color">Me</span><span class="element"
+                                            data-elements="zzo-soprano, China"></span></h4>
+                                    <p class="max-width-450 mx-0 my-4"> </p>
+                                    <ul class="list-inline hero-social">
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="https://www.facebook.com/hongniwumezzo/">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="https://www.instagram.com/hongni.wu">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a target="_blank"
+                                                href="https://www.youtube.com/channel/UCs1RVfnHl9ovpMmrMJLGmrg/videos">
+                                                <i class="fa fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a target="_blank" href="https://twitter.com/hongniwu">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
-
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption BigBold-Title   tp-resizeme rs-parallaxlevel-0" id="slide-309-layer-2" data-x="['left','left','left','left']"
-                                    data-hoffset="['50','50','30','17']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['110','110','180','160']"
-                                    data-fontsize="['100','80','60','40']" data-lineheight="['100','90','60','60']" data-width="['none','none','none','400']"
-                                    data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-transform_idle="o:1;"
-                                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];"
-                                    data-mask_out="x:inherit;y:inherit;" data-start="500" data-splitin="none" data-splitout="none"
-                                    data-basealign="slide" data-responsive_offset="off" style="z-index: 6; white-space: nowrap;">Hongni Wu
-                                </div>
-
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption BigBold-SubTitle   rs-parallaxlevel-0 scroll-effects-text" id="slide-309-layer-3" data-x="['left','left','left','left']"
-                                    data-hoffset="['55','55','33','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','1','74','58']"
-                                    data-fontsize="['25','25','25','25']" data-lineheight="['24','24','24','20']" data-width="['410','410','410','280']"
-                                    data-height="['60','100','100','100']" data-whitespace="normal" data-transform_idle="o:1;"
-                                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                    data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                    data-start="650" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="off"
-                                    data-responsive="off" style="z-index: 7; min-width: 410px; max-width: 410px; max-width: 60px; max-width: 60px; white-space: normal;">Mezzo-soprano, China
-                                </div>
-
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption" id="slide-309-layer-4" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']"
-                                    data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','30','20']" data-width="none"
-                                    data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                    data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                    data-start="650" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="off"
-                                    data-responsive="off" style="z-index: 8; white-space: nowrap;border-color:rgba(255, 255, 255, 0.25);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                    <a href="#about" class="custom-button slider-button scroll-to-target">Enter</a>
-                                </div>
-                                <div class="tp-caption" id="slide-309-layer-5" data-x="['left','left','left','left']" data-hoffset="['600','600','150','140']"
-                                    data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','30','20']" data-width="none"
-                                    data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                    data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                    data-start="650" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="off"
-                                    data-responsive="off" style="z-index: 8; white-space: nowrap;border-color:rgba(255, 255, 255, 0.25);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-
-                                    <a href="./index_cn.html" class="custom-button redirect-button scroll-to-target"> 中文版</a>
-                                </div>
-                                <!-- <div class="tp-caption" id="slide-309-layer-5" data-x="['right','right','left','left']" data-hoffset="['50','50','30','20']"
-                                    data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','30','20']" data-width="none"
-                                    data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                    data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                    data-start="650" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="off"
-                                    data-responsive="off" style="z-index: 8; white-space: nowrap;border-color:rgba(255, 255, 255, 0.25);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-
-                                    <a href="./index.html" class="custom-button redirect-button scroll-to-target">中文版</a>
-                                </div> -->
-                            </li>
-                            <!-- SLIDE  -->
-                        </ul>
-                        <div class="tp-static-layers"></div>
-                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- END REVOLUTION SLIDER -->
-                <script type="text/javascript">
-                </script>
-            </article>
+            </div>
         </section>
-        <!-- Main Slider Section Ends -->
-        <!-- About Section Starts -->
+        <!--  Hero End  -->
+
+        <!--   About Start   -->
         <section id="about" class="about">
-            <!-- Container Starts -->
-            <div class="container">
-                <!-- Main Heading Starts -->
-                <div class="text-center top-text">
-                    <h1>
-                        <span>Bio</span>graphy</h1>
-                </div>
-                <!-- Main Heading Ends -->
-                <!-- Divider Starts -->
-                <div class="divider text-center">
-                    <span class="outer-line"></span>
-                    <span class="fa fa-user" aria-hidden="true"></span>
-                    <span class="outer-line"></span>
-                </div>
-                <!-- Divider Ends -->
-                <!-- About Content Starts -->
-                <div class="row about-content">
-                    <div class="text-center">
-                        <hr>
-                        <p>Chinese mezzo-soprano Hongni Wu is currently a member of the Jette Parker Program at the Royal Opera
-                            House Covent Garden. Her recent performances have garnered praise from the New York Times for
-                            her “technical agility, warm colorings, and ample sound,” and by Operwire for her “remarkably
-                            outstanding voice.”
-                        </p>
-                        <p>
-                            In the 2019-2020 season, Wu returns to the Royal Opera House as the Second Lady in David McVicar’s production of Die Zauberflöte,
-                            Karolka in Jenfa under the baton of Vladamir Jurowski, Flora in La Traviata, and Tebaldo in Don
-                            Carlo.
-                        </p>
-                        <p>Highlights of the 2018-2019 season included multiple roles at the Royal Opera House, notably the
-                            title role in Henze’s Phaedra, Sibél in Faust, Mercédès in Barrie Kosky’s acclaimed production
-                            of Carmen, and her house debut as Flora in Richard Eyre’s production of La Traviata.
-                        </p>
-                        <p>A 2018 winner of the Metropolitan Opera National Council Auditions, Wu completed her Professional
-                            Studies and Master of Music Degree at Manhattan School of Music where she was the recipient of
-                            Stan Sesser Career Award and received her Bachelor of Music Degree from Xinghai Conservatory
-                            of Music.</p>
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12"></div>
+                            <div class="col-lg-10 offset-lg-1 blog">
+                                <div class="personal-item">
+                                    <p><strong class="base-color">Chinese mezzo-soprano Hongni Wu</strong> is currently
+                                        a member of the
+                                        Jette Parker Program
+                                        at the Royal Opera
+                                        House Covent Garden. Her recent performances have garnered praise from the New
+                                        York Times for
+                                        her “technical agility, warm colorings, and ample sound,” and by Operwire for
+                                        her “remarkably
+                                        outstanding voice.”
+                                    </p>
+                                    <p>
+                                        In the 2019-2020 season, Wu returns to the Royal Opera House as the Second Lady
+                                        in David McVicar’s production of Die Zauberflöte,
+                                        Karolka in Jenfa under the baton of Vladamir Jurowski, Flora in La Traviata, and
+                                        Tebaldo in Don
+                                        Carlo.
+                                    </p>
+                                    <p>Highlights of the 2018-2019 season included multiple roles at the Royal Opera
+                                        House, notably the
+                                        title role in Henze’s Phaedra, Sibél in Faust, Mercédès in Barrie Kosky’s
+                                        acclaimed production
+                                        of Carmen, and her house debut as Flora in Richard Eyre’s production of La
+                                        Traviata.
+                                    </p>
+                                    <p>A 2018 winner of the Metropolitan Opera National Council Auditions, Wu completed
+                                        her Professional
+                                        Studies and Master of Music Degree at Manhattan School of Music where she was
+                                        the recipient of
+                                        Stan Sesser Career Award and received her Bachelor of Music Degree from Xinghai
+                                        Conservatory
+                                        of Music.</p>
 
-                        <p>At the Manhattan School of Music, she performed the roles of Angelina La Cenerentola, Sesto La Clemenza
-                            di Tito, and the Dragonfly L’Enfant et les Sortilèges. Further stage appearances include Cherubino
-                            in Le Nozze di Figaro with Opera Maine, Prince Orlofsky in Die Fledermaus with the Martina Arroyo
-                            Foundation, the title role of Carmen with the Xinghai Conservatory of Music and Mrs. Umeya in
-                            Qingling Song at Guangzhou Opera House.</p>
-                        <p>On the concert stage, Wu has participated in recitals in New York, Nantucket, Portland Maine, Shanghai,
-                            Yangzhou, Nanjing, Beijing and Guangzhou. She has also been featured in the Martina Arroyo Prelude
-                            Gala Concert and Spring Luncheon Cabaret in New York.</p>
+                                    <p>At the Manhattan School of Music, she performed the roles of Angelina La
+                                        Cenerentola, Sesto La Clemenza
+                                        di Tito, and the Dragonfly L’Enfant et les Sortilèges. Further stage appearances
+                                        include Cherubino
+                                        in Le Nozze di Figaro with Opera Maine, Prince Orlofsky in Die Fledermaus with
+                                        the Martina Arroyo
+                                        Foundation, the title role of Carmen with the Xinghai Conservatory of Music and
+                                        Mrs. Umeya in
+                                        Qingling Song at Guangzhou Opera House.</p>
+                                    <p>On the concert stage, Wu has participated in recitals in New York, Nantucket,
+                                        Portland Maine, Shanghai,
+                                        Yangzhou, Nanjing, Beijing and Guangzhou. She has also been featured in the
+                                        Martina Arroyo Prelude
+                                        Gala Concert and Spring Luncheon Cabaret in New York.</p>
+                                </div>
+                                <div class="button-border mt-3 mb-lg-0 mr-4">
+                                    <a href="assets/hongni_wu_resume_20200323.pdf" class="pill-button"
+                                        target="_blank">Download Resume</a>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <!-- About Content Ends -->
             </div>
-            <!-- Container Ends -->
         </section>
-        <!-- About Section Ends -->
-        <!-- Services Section Starts -->
-        <section id="services" class="services">
-            <div class="section-overlay">
-                <!-- Container Starts -->
-                <div class="container">
-                    <!-- Main Heading Starts -->
-                    <div class="text-center top-text">
-                        <h1>
-                            Schedule</h1>
+        <!--    About End    -->
+
+        <!--    Resume Start   -->
+        <section id="schedule" class="resume">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row"></div>
+                        <!--    TimeLine Start   -->
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-1">
+                                <h3 class="text-dark">
+                                    <i class="lni-play base-color"></i>
+                                    Upcoming
+                                </h3>
+                                <div class="timeline-items box-border">
+                                    <!--    Item 01   -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title"><a
+                                                        href="http://www.roh.org.uk/about/jette-parker-young-artists-programme/events"
+                                                        target="_blank">Chamber Orchestra Concert</a></h6>
+                                                <p class="timeline-year">31 May 2020</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Royal Opera House, London UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--    Item 02   -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title"><a
+                                                        href="https://www.roh.org.uk/tickets-and-events/don-carlo-by-nicholas-hytner-details"
+                                                        target="_blank">Verdi: Don Carlo (Tebaldo)</a></h6>
+                                                <p class="timeline-year">29
+                                                    June 2020 - 19 July 2020</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Royal Opera House, London UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--    Item 03   -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title"><a
+                                                        href="https://www.roh.org.uk/tickets-and-events/jette-parker-young-artists-summer-performance-details"
+                                                        target="_blank">Jette Parker Young Artists Summer
+                                                        Performance</a></h6>
+                                                <p class="timeline-year">18 Jul 2020</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Royal Opera House, London UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item 04 -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title"><a
+                                                        href="https://mnopera.org/season/2020-2021/cinderella/"
+                                                        target="_blank">La cenerentola (Angelina)</a></h6>
+                                                <p class="timeline-year">18 Jul 2020</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Minnesota Opera, Minneapolis USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5 mt-lg-0 past-perf">
+                                <h3 class="text-dark">
+                                    <i class="lni-backward base-color"></i>Past
+                                </h3>
+                                <div class="timeline-items box-border">
+                                    <!--    Item 01   -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title">Verdi: La traviata (Flora)</h6>
+                                                <p class="timeline-year">22 Jan
+                                                    2020 - 1 Feb 2020</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Royal Opera House, London UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--    Item 02   -->
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon"></div>
+                                        <div class="timeline-contents">
+                                            <div class="time-line-header">
+                                                <h6 class="timeline-title">Mozart: Die Zauberflöte (Second Lady)</h6>
+                                                <p class="timeline-year">01 Nov
+                                                    2019 - 27 Nov 2019</p>
+                                            </div>
+                                            <div class="timeline-content">
+                                                <p>Royal Opera House, London UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    TimeLine End   -->
                     </div>
-                    <!-- Main Heading Starts -->
-                    <!-- Divider Starts -->
-                    <div class="divider text-center">
-                        <span class="outer-line"></span>
-                        <span class="fa fa-calendar" aria-hidden="true"></span>
-                        <span class="outer-line"></span>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                    <!-- Schedule block starts -->
-                    <div class="schedule-container text-center">
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>01 Nov 2019, 04 Nov 2019, 08 Nov 2019, 12 Nov 2019, 16 Nov 2019, 18 Nov 2019, 22 Nov 2019,
-                                    25 Nov 2019, 27 Nov 2019
-                                </h4>
+                </div>
+            </div>
+        </section>
+        <!--     Resume End    -->
+
+        <!-- Portfolio Start -->
+        <section id="gallery" class="portfolio">
+            <div class="display-table">
+                <div class="display-content gallery">
+                    <div class="container">
+                        <div class="portfolio-items row">
+                            <!-- Item 01 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic1.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic1.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/productions/die-zauberflote-by-david-mcvicar" target="_blank">Mozart: Die Zauberflöte (Second Lady)</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
+                            <!-- Item 02 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic2.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic2.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
+                            <!-- Item 03 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic3.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic3.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>22 Jan 2020, 25 Jan 2020, 28 Jan 2020, 30 Jan 2020
-                                    <br/> 1 Feb 2020</h4>
+                            <!-- Item 04 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic4.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic4.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/tickets-and-events/la-traviata-by-richard-eyre-details" target="_blank">Verdi: La traviata (Flora)</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
+                            <!-- Item 05 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic5.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic5.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
+                            <!-- Item 06 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic6.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic6.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>24 March 2020, 27 March 2020, 30 March 2020,
-                                    <br/>3 April 2020, 6 April 2020, 9 April 2020</h4>
+                            <!-- Item 07 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic7.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic7.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/tickets-and-events/jenufa-by-claus-guth-details" target="_blank">Janácek: Jenufa (Karolka)</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
+                            <!-- Item 08 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic8.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic8.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>20 April 2020</h4>
-                            </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/tickets-and-events/recitals-at-lunch-details" target="_blank">Recital</a>
-                                </h3>
-                                <h5>Crush Room, Royal Opera House
-                                    <br/>London, UK
-                                </h5>
-                            </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>31 May 2020</h4>
-                            </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="http://www.roh.org.uk/about/jette-parker-young-artists-programme/events" target="_blank">Chamber Orcestra Concert</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
-                            </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>29 June 2020,
-                                    <br/> 3 July 2020, 7 July 2020, 10 July 2020, 13 July 2020, 16 July 2020, 19 July 2020</h4>
-                            </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/tickets-and-events/don-carlo-by-nicholas-hytner-details" target="_blank">Verdi: Don Carlo (Tebaldo)</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
-                            </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                        <div class="schedule-row">
-                            <div class="schedule-date">
-                                <h4>18 Jul 2020
-                                </h4>
-                            </div>
-                            <div class="schedule-title">
-                                <h3>
-                                    <a href="https://www.roh.org.uk/tickets-and-events/jette-parker-young-artists-summer-performance-details" target="_blank">Jette Parker Young Artists Summer Performance 2020</a>
-                                </h3>
-                                <h5>Royal Opera House
-                                    <br/>London, UK
-                                </h5>
-                            </div>
-                            <div class="divider text-center">
-                                <br>
-                                <span class="outer-line"></span>
-                                <br>
-                                <br>
+                            <!-- Item 09 -->
+                            <div class="col-lg-4 portfolio-item">
+                                <div class="image-border">
+                                    <a href="assets/img/pic9.jpg" class="js-zoom-gallery">
+                                        <img src="assets/img/pic9.jpg" alt="/" class="img-fluid">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!--  Portfolio End  -->
 
-                <!-- Schedule block Ends -->
-                <!-- Divider Ends -->
-                <!-- Schedule Starts -->
-                <!-- Schedule Ends -->
-            </div>
-    </div>
-    <!-- Services Ends -->
-    </div>
-    </section>
-    <!-- Services Section Ends -->
-    <!-- Testimonials Section Starts -->
-    <section id="reviews" class="testimonials">
-        <div class="section-overlay">
-            <!-- Container Starts -->
-            <div class="container">
-                <!-- Main Heading Starts -->
-                <div class="text-center top-text">
-                    <h1>Reviews</h1>
-                </div>
-                <!-- Main Heading Starts -->
-                <!-- Blockquotes Starts -->
-                <div id="quote-carousel" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper For Sliders Starts -->
-                    <!-- Indicators Starts -->
-                    <ol class="carousel-indicators mx-auto">
-                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#quote-carousel" data-slide-to="1"></li>
-                        <li data-target="#quote-carousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Indicators Ends -->
-                    <div class="carousel-inner">
-                        <!-- Quote #1 Starts -->
-                        <div class="carousel-item active">
-                            <blockquote>
-                                <img class="rounded-circle img-fluid" src="img/testimonial/client1.jpg" alt="client">
-                                <p>Hongni Wu, 23, a mezzo-soprano, brought technical agility, warm colorings and an ample sound
-                                    to “Cruda sorte,” a bel canto showpiece from Rossini’s “L’Italiana in Algeri.” Then,
-                                    after intermission, in a bold choice, she sang the opening scene of Strauss’s “Der Rosenkavalier”
-                                    with youthful bloom and richness. We’ll have to see if she follows the path of the coloratura-happy
-                                    Marilyn Horne or the refined, lyrical Susan Graham.</p>
-                                <h5>The New York Times</h5>
-                                <h6>Anthony Tommasini</h6>
-                            </blockquote>
-                        </div>
-                        <!-- Quote #1 Ends -->
-                        <!-- Quote #2 Starts -->
-                        <div class="carousel-item">
-                            <blockquote>
-                                <img class="rounded-circle img-fluid" src="img/testimonial/client2.jpg" alt="client">
-                                <p>Wu’s voice blossomed into a wide array of colors and emotions. She developed into her character
-                                    and proved to be a remarkably outstanding voice.</p>
-                                <h5>OperaWire</h5>
-                                <h6>Jennifer Pyron</h6>
-                            </blockquote>
-                        </div>
-                        <!-- Quote #2 Ends -->
-                        <!-- Quote #3 Starts -->
-                        <div class="carousel-item">
-                            <blockquote>
-                                <img class="rounded-circle img-fluid" src="img/testimonial/client2.jpg" alt="client">
-                                <p>Hongni Wu sang a fluent, entirely admirable Angelina, with an entrancing timbre, excellent
-                                    coloratura, and stylistic command. </p>
-                                <h5>Opera News</h5>
-                                <h6>David Shengold</h6>
-                            </blockquote>
-                        </div>
-                        <!-- Quote #3 Ends -->
-                    </div>
-                    <!-- Wrapper For Sliders Ends -->
-                </div>
-                <!-- Blockquotes Ends -->
-            </div>
-            <!-- Container Ends -->
-        </div>
-    </section>
-    <!-- Testimonials Section Ends -->
-    <!-- Portfolio Section Starts -->
-    <section id="portfolio" class="portfolio">
-        <!-- Container Starts -->
-        <div class="container">
-            <!-- Main Heading Starts -->
-            <div class="text-center top-text">
-                <h1>
-                    Media</h1>
-                <h4>Photos, Audio and Video Recordings</h4>
-            </div>
-            <!-- Main Heading Starts -->
-            <!-- Divider Starts -->
-            <div class="divider text-center">
-                <span class="outer-line"></span>
-                <span class="fa fa-music" aria-hidden="true"></span>
-                <span class="outer-line"></span>
-            </div>
-            <!-- Divider Ends -->
-            <!-- Filter Wrapper Starts -->
-            <nav>
-                <ul class="simplefilter nav nav-pills d-block">
-                    <!-- Filter Wrapper Items Starts -->
-                    <li class="active" data-filter="all">
-                        <i class="fa fa-reorder"></i> All</li>
-                    <li data-filter="1">Photos</li>
-                    <li data-filter="2">Videos</li>
-                    <!-- <li data-filter="3">Audios</li> -->
-                    <!-- Filter Wrapper Items Ends -->
-                </ul>
-            </nav>
-            <!-- Filter Wrapper Ends -->
-            <div>
-                <div class="filtr-container">
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="2">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=-JaHy99KrdY">
-                                    <img class="img-fluid" src="https://img.youtube.com/vi/-JaHy99KrdY/hqdefault.jpg" alt="Parto, parto" />
-                                    <span class="zoom-icon video-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Non piu mesta</h3>
-                                <p>Cenerentola's aria from La cenerentola by Rossini</p>
+        <!--  Blog Start  -->
+        <!-- <section id="videos" class="blog">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center title">
+                                    <h2 class="text-dark">Videos</h2>
+                                    <p class="text-muted mb-5 max-width-450"></p>
+                                </div>
                             </div>
-                            <!-- Caption Ends -->
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="2">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=K75_OiDhOjA">
-                                    <img class="img-fluid" src="https://img.youtube.com/vi/K75_OiDhOjA/hqdefault.jpg" alt="Parto, parto" />
-                                    <span class="zoom-icon video-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Un soave non so che</h3>
-                                <p>Cenerentola and Ramiro's duet from La cenerentola by Rossini</p>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="blog-item box-border">
+                                    <div class="blog-image">
+                                        <div class="blog-intro">
+                                            <img src="http://placehold.it/720x480" alt="/">
+                                        </div>
+                                    </div>
+                                    <div class="blog-content">
+                                        <ul class="list-inline mt-4">
+                                            <li class="list-inline-item">
+                                                <i class="lni-calendar base-color"></i>
+                                                <span class="text-muted"></span>
+                                            </li>
+                                        </ul>
+                                        <h5 class="mb-3"><a class="text-dark" href="javascript:void(0)" target="_blank"
+                                                data-toggle="modal" data-target="#blog-single">Video Title</a>
+                                        </h5>
+                                        <p>description</p>
+                                        <div class="blog-link">
+                                            <a class="base-color" href="javascript:void(0)" target="_blank"
+                                                data-toggle="modal" data-target="#blog-single">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- Caption Ends -->
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="2">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=1gslpBSHbSU">
-                                    <img class="img-fluid" src="https://img.youtube.com/vi/1gslpBSHbSU/hqdefault.jpg" alt="Parto, parto" />
-                                    <span class="zoom-icon video-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Svegliatevi nel core</h3>
-                                <p>Sesto's aria from "Giulio Cesare" by Handel</p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="2">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=n0qSG4JW9eM">
-                                    <img class="img-fluid" src="https://img.youtube.com/vi/n0qSG4JW9eM/hqdefault.jpg" alt="Gallery project" />
-                                    <span class="zoom-icon video-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Wie du warst</h3>
-                                <p>Octavian's aria from "Der Rosenkavalier" by Strauss</p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="2">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=tA6JUOEs3jU">
-                                    <img class="img-fluid" src="https://img.youtube.com/vi/tA6JUOEs3jU/hqdefault.jpg" alt="Gallery project" />
-                                    <span class="zoom-icon video-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Smanie implacabili</h3>
-                                <p>Dorabella's aria from "Così fan tutte" by Mozart</p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="1">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap" href="img/projects/project-3.jpg" data-gal="magnific-pop-up[gallery]" title="Profile photo 1">
-                                    <img class="img-fluid" src="img/projects/project-3.jpg" alt="Gallery project" />
-                                    <span class="zoom-icon gallery-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <a href="img/projects/project-5.jpg" title="Profile photo 2" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/project-9.jpg" title="Profile photo 3" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Profile photos</h3>
-                                <p></p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="1">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap" href="img/projects/met-1.jpg" data-gal="magnific-pop-up[gallery]" title="On the Met's Mainstage">
-                                    <img class="img-fluid" src="img/projects/met-1.jpg" alt="Gallery project" />
-                                    <span class="zoom-icon gallery-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <a href="img/projects/met-2.jpg" title="On the Met's Mainstage" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/met-3.jpg" title="Back stage of the Met with the Finalists" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/met-4.jpg" title="Back stage of the Met with the Finalists" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/met-5.jpg" title="In front of my dressing room" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/met-6.jpg" title="In front of my dressing room" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>Met Competition</h3>
-                                <p>Metropolitan Opera National Council Auditions Final 2018</p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-6 col-xl-3 filtr-item" data-category="1">
-                        <div class="magnific-popup-gallery">
-                            <!-- Thumbnail Starts -->
-                            <figure class="thumbnail thumbnail__portfolio">
-                                <a class="image-wrap" href="img/projects/cenerentola-4.jpg" data-gal="magnific-pop-up[gallery]" title="On stage as La cenerentola">
-                                    <img class="img-fluid" src="img/projects/cenerentola-4.jpg" alt="Gallery project" />
-                                    <span class="zoom-icon gallery-icon"></span>
-                                </a>
-                            </figure>
-                            <!-- Thumbnail Ends -->
-                            <a href="img/projects/cenerentola-2.jpg" title="On stage as La cenerentola" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/cenerentola-3.jpg" title="On stage as La cenerentola" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/cenerentola-1.jpg" title="On stage as La cenerentola" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <a href="img/projects/cenerentola-5.jpg" title="On stage as La cenerentola" data-gal="magnific-pop-up[gallery]" style="display:none;"></a>
-                            <!-- Caption Starts -->
-                            <div class="caption">
-                                <h3>On stage as La cenerentola</h3>
-                                <p>Manhattan School of Music 2018</p>
-                            </div>
-                            <!-- Caption Ends -->
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div>
-        <!-- Container Ends -->
-    </section>
-    <!-- Portfolio Section Ends -->
-    <!-- Contact Section Starts -->
-    <section id="contact" class="contact">
+        </section> -->
+        <!--   Blog End   -->
 
-        <!-- Container Starts -->
-        <div class="container">
-            <!-- Main Heading Starts -->
-            <div class="text-center top-text">
-                <h1>
-                    <span>Contact</span> Me</h1>
-                <h4>Get in Touch</h4>
-            </div>
-            <!-- Main Heading Starts -->
-            <!-- Divider Starts -->
-            <div class="divider text-center">
-                <span class="outer-line"></span>
-                <span class="fa fa-envelope" aria-hidden="true"></span>
-                <span class="outer-line"></span>
-            </div>
-            <!-- Divider Ends -->
-        </div>
-        <!-- Container Ends -->
-        <!-- Map Section Starts -->
-        <!-- Info Map Boxes Starts -->
-        <div class="container">
-            <div class="row info-map-boxes">
-                <!-- Left Info Map Box Starts -->
-                <div class="col-md-6 col-sm-10">
-                    <!-- Email section Starts -->
-                    <div class="info-map-boxes-item fa fa-phone">
-                        <h1>Email &amp; Social Media</h1>
-                        <p>
-                            <br> Email:
-                            <a href="#">hongniwu10@gmail.com</a>
-                            <br>
-                            <br>
-                        </p>
-                        <!-- Social Media Links Starts -->
-                        <div class="social-icons">
-                            <ul class="social">
-                                <li>
-                                    <a class="twitter" target="_blank" href="https://twitter.com/hongniwu" title="twitter"></a>
-                                </li>
-                                <li>
-                                    <a class="facebook" target="_blank" href="https://www.facebook.com/hongniwumezzo/" title="facebook"></a>
-                                </li>
-                                <li>
-                                    <a class="instagram" target="_blank" href="https://www.instagram.com/hongni.wu" title="instagram"></a>
-                                </li>
-                                <li>
-                                    <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCs1RVfnHl9ovpMmrMJLGmrg/videos" title="youtube"></a>
-                                </li>
-                            </ul>
+        <!-- Contact Start -->
+        <section id="contact" class="contact">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center title">
+                                    <h2 class="text-dark">Get <span class="base-color">in Touch</span></h2>
+                                    <p class="text-muted mb-5 max-width-450">Management Information</p>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Social Media Links Ends -->
+                        <div class="row contact-info">
+                            <div class="col-lg-6 mt-5">
+                                <div class="text-center">
+                                    <div class="base-color">
+                                        <i class="lni-phone-handset size-md"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <h5 class="text-dark mb-0">Eleanor Freedman (Worldwide)</h5>
+                                        <small class="text-muted">Intermusica London, UK</small><br />
+                                        <small class="text-muted">+44 20 7608 9907</small><br />
+                                        <small class="text-muted">efreedman@intermusica.co.uk</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt-5">
+                                <div class="text-center">
+                                    <div class="base-color">
+                                        <i class="lni-phone-handset size-md"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <h5 class="text-dark mb-0">Markus Beam (North America)</h5>
+                                        <small class="text-muted">IMG New York, USA</small><br />
+                                        <small class="text-muted">+1 212 994 3540</small><br />
+                                        <small class="text-muted">mbeam@imgartists.com</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row copy-right">
+                            <div class="col-12 text-center">
+                                <p>Copyright © 2020</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Left Info Map Box Ends -->
-                <!-- Right Info Map Box Starts -->
-                <div class="col-md-6 col-sm-12">
-
-                    <div class="info-map-boxes-item fa fa-info">
-                        <h1>Management Information</h1>
-                        <p>
-                            <br>
-                            <a target="_blank" href="https://www.intermusica.co.uk/artist/Hongni-Wu">
-                                <strong>Intermusica London, UK</strong>
-                            </a>
-                            <br> Eleanor Freedman (Worldwide)
-                            <br>+44 20 7608 9907
-                            <br>efreedman@intermusica.co.uk
-                            <br>
-                            <br>
-                            <a target="_blank" href="https://imgartists.com/roster/27974/">
-                                <strong>IMG New York, USA</strong>
-                            </a>
-                            <br>Markus Beam (North America)
-                            <br>+1 212 994 3540
-                            <br>mbeam@imgartists.com
-                            <br>
-                        </p>
-                    </div>
-
-                </div>
-                <!-- Right Info Map Box Ends -->
             </div>
-        </div>
-        <!-- Info Map Boxes Ends -->
-    </section>
-    <!-- Contact Section Ends -->
-    <!-- Footer Section Starts -->
-    <footer class="footer text-center">
-        <!-- Container Starts -->
-        <div class="container">
-            <!-- Copyright Text Starts -->
-            <p>Hongni Wu, mezzo-soprano</p>
-            <p>
-                &copy; Copyright 2018
-            </p>
-            <!-- Copyright Text Ends -->
-        </div>
-        <!-- Container Ends -->
-    </footer>
-    <!-- Footer Section Starts -->
-    <!-- Back To Top Starts -->
-    <div id="back-top-wrapper" class="d-none d-sm-block">
-        <p id="back-top">
-            <a href="index.html#top">
-                <span></span>
-            </a>
-        </p>
-    </div>
-    <!-- Back To Top Ends -->
-    </div>
-    <!-- Wrapper Ends -->
+        </section>
+        <!--  Contact End  -->
 
-    <!-- Template JS Files -->
-    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBpN0oc0NeZv9JolJSIzQRNW9IkUOfKrxw"></script>
-    <script type="text/javascript" src="js/plugins/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.filterizr.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.singlePageNav.min.js"></script>
+        <!--   Color Scheme  -->
+        <a class="color-scheme hide text-white bg-base-color d-inline-block" href="javascript:void(0)"><i
+                class="lni-night"></i></a>
+        <a class="color-scheme hide color-scheme-light text-white bg-base-color d-none" href="javascript:void(0)"><i
+                class="lni-sun"></i></a>
 
-    <!-- Revolution Slider Main JS Files -->
-    <script type="text/javascript" src="js/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
-    <!-- Revolution Slider Extensions -->
 
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    </main>
 
-    <!-- Main JS Initialization File -->
-    <script type="text/javascript" src="js/custom.js"></script>
 
-    <!-- Revolution Slider Initialization Starts -->
-    <script type="text/javascript">
-        (function () {
-            "use strict";
-            var tpj = jQuery;
-            var revapi104;
-            tpj(document).ready(function () {
-                if (tpj("#rev_slider").revolution == undefined) {
-                    revslider_showDoubleJqueryError("#rev_slider");
-                } else {
-                    revapi104 = tpj("#rev_slider").show().revolution({
-                        sliderType: "standard",
-                        sliderLayout: "fullscreen",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "horizontal",
-                            mouseScrollNavigation: "off",
-                            onHoverStop: "off",
-                            touch: {
-                                touchenabled: "on",
-                                swipe_threshold: 75,
-                                swipe_min_touches: 1,
-                                swipe_direction: "horizontal",
-                                drag_block_vertical: false
-                            },
-                            bullets: {
-                                enable: false,
-                                hide_onmobile: true,
-                                hide_under: 960,
-                                style: "zeus",
-                                hide_onleave: false,
-                                direction: "horizontal",
-                                h_align: "right",
-                                v_align: "bottom",
-                                h_offset: 80,
-                                v_offset: 50,
-                                space: 5,
-                                tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>'
-                            }
-                        },
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [868, 768, 960, 720],
-                        lazyType: "none",
-                        parallax: {
-                            type: "mouse",
-                            origo: "slidercenter",
-                            speed: 2000,
-                            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                            disable_onmobile: "on"
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "on",
-                        stopAfterLoops: 0,
-                        stopAtSlide: 1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                    var newCall = new Object(),
-                        cslide;
+    <!--  JavaScripts  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--  Bootstrap Js  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Snow App Js  -->
+    <script src="assets/js/snow.js"></script>
+    <!--  Type  Js  -->
+    <script src="assets/js/typed.js"></script>
+    <!--  Owl Carousel Js  -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--  Isotope  Js  -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  Count  Js  -->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!--  PopUp Js  -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--  Custom JS  -->
+    <script src="assets/js/arshia.js"></script>
 
-                    newCall.callback = function () {
-                        var proc = revapi104.revgetparallaxproc(),
-                            fade = 1 + proc,
-                            scale = 1 + (Math.abs(proc) / 10);
-
-                        punchgs.TweenLite.set(revapi104.find('.slotholder, .rs-background-video-layer'), {
-                            opacity: fade,
-                            scale: scale
-                        });
-                    }
-                    newCall.inmodule = "parallax";
-                    newCall.atposition = "start";
-
-                    revapi104.bind("revolution.slide.onloaded", function (e) {
-                        revapi104.revaddcallback(newCall);
-                    });
-                }
-            });
-
-            // GOOGLE MAP
-            function init_map() {
-
-                var myOptions = {
-                    scrollwheel: false,
-                    zoom: 12,
-                    center: new google.maps.LatLng(51.512986, -0.122207),
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-                var marker = new google.maps.Marker({
-                    map: map,
-                    icon: "img/markers/green.png",
-                    position: new google.maps.LatLng(51.512986, -0.122207)
-                });
-                var infowindow = new google.maps.InfoWindow({
-                    content: "<strong></strong><br>Covent Garden, London, UK<br>"
-                });
-                google.maps.event.addListener(marker, "click", function () {
-                    infowindow.open(map, marker);
-                });
-            }
-            google.maps.event.addDomListener(window, "load", init_map);
-
-        })(jQuery);
-    </script>
-    <!-- Revolution Slider Initialization Ends -->
 </body>
 
 </html>

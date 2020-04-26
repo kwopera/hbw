@@ -1,0 +1,86 @@
+/*-----------------------------------------------------------
+* Template Name    : Arshia - Fully Responsive Personal Template
+* Author           : Retrina Group
+* Version          : 1.0.0
+* Created          : June 2020
+* File Description : Color sass file of the template
+*------------------------------------------------------------*/
+@import "color-full-variable";
+
+::selection {
+    background: rgba(137, 13, 131, 0.31)
+}
+::-moz-selection {
+    background: rgba(137, 13, 131, 0.31)
+}
+.base-color {
+    color: map-get($map: $color-full, $key: purples)!important;
+}
+.hero-social li a:hover, .blog-link a:hover{
+    color: map-get($map: $color-full, $key: purple-hover) !important;
+}
+.bg-base-color {
+    background-color: map-get($map: $color-full, $key: purples)!important;
+}
+.follow-label:before,
+.skill-box .fill-skillbar,
+.timeline-area:before,
+.testimonial .testimonial-border,
+.blog-content:before,
+.blog .owl-dot.active span {
+    background: map-get($map: $color-full, $key: purples);
+}
+.testimonial .owl-dot.active span{
+    background: map-get($map: $color-full, $key: purples) !important;
+}
+.menu li a,
+header .navbar-brand span ,
+header .navbar-brand b ,
+.pill-button ,
+.pill-button:hover ,
+.ability ul li:before,
+.timeline-icon,
+.timeline-year ,
+.language-skill ul li i ,
+.contact .form-item .form-control,
+.comments .comment-info a,
+.portfolio .portfolio-icon a,
+.portfolio .portfolio-icon button,
+.blog-content button:hover,
+.comments .comment-info a:hover,
+.social a:hover
+{
+    color: map-get($map: $color-full, $key: purples);
+}
+.loader {
+    border-top: 4px solid map-get($map: $color-full, $key: purples) !important;
+}
+.timeline-icon{
+    border: 1px solid map-get($map: $color-full, $key: purples);
+    background-color: map-get($map: $color-full, $key: purples);
+}
+.portfolio .portfolio-item-content::before {
+
+    background-color:rgba(137, 13, 131, 0.6)
+}
+.menu-toggler span {
+    background-color: rgb(137, 13, 131)
+}
+.timeline-item:before
+{
+    border: 2px solid map-get($map: $color-full, $key: purples);
+}
+.timeline-item:before
+{
+    border: 1px solid map-get($map: $color-full, $key: purples);
+}
+
+/*-------------------------
+      Flat Demo
+-------------------------*/
+.flat-demo .button-border, .arshia-dark.flat-demo .button-border{
+    background-color: map-get($map: $color-full, $key: purples);
+}
+.flat-demo .pill-button:hover, .flat-demo .pill-button.active{
+    background-color: map-get($map: $color-full, $key: purple-hover);
+}
